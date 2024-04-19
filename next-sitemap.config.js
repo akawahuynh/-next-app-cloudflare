@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-  siteUrl: process.env.SITE_URL || "http://localhost:3000",
+  siteUrl: process.env.SITE_URL || "https://next-app-cloudflare-ajr.pages.dev",
   changefreq: "daily",
   priority: 0.8,
   sitemapSize: 5000,
